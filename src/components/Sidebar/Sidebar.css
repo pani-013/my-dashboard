@@ -1,0 +1,165 @@
+.Sidebar {
+    color: white;
+    width: 100%;
+}
+
+.Sidebar a {
+    text-decoration: none;
+    color: white;
+    transition: 0.2s ease-in-out;
+}
+
+.Sidebar a:hover {
+    color: white;
+}
+
+.Sidebar .logo img {
+    height: 60px;
+}
+
+.Sidebar .logo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.Sidebar .logo .logoText {
+    font-size: 20px;
+}
+
+.Sidebar .logo .logoText span {
+    color: var(--spgreen);
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    align-items: flex-start;
+    /* border: 2px solid blue; */
+    width: 100%;
+}
+
+.menu .menuItems {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 17px;
+    font-weight: 400;
+    /* padding-top: 2rem; */
+    cursor: pointer;
+    /* border: 2px solid red; */
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    width: inherit;
+    transition: 0.2s ease-in-out;
+}
+
+.menu .menuItems i {
+    padding-left: 6rem;
+    border: 2px solid rebeccapurple;
+}
+
+.menu .menuItems:hover {
+    background-color: var(--spgreen);
+    transform: translateY(-10px);
+    color: white;
+}
+
+
+.menu .specialItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 17px;
+    font-weight: 400;
+    /* padding-top: 2rem; */
+    cursor: pointer;
+    /* border: 2px solid red; */
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    width: inherit;
+    transition: 0.2s ease-in-out;
+}
+
+.drop {
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+}
+
+.drop i,
+.dropdown1 .sub1 i {
+    margin-right: 1rem;
+    cursor: grab;
+    border-radius: 10px;
+    padding: 1rem;
+    transition: 0.2s ease-in-out;
+    color: white
+}
+
+.drop i:hover,
+.dropdown1 .sub1 .sub1i:hover {
+    background-color: var(--spblue);
+}
+
+.drop:hover {
+    background-color: var(--spgreen);
+    transform: translateY(-10px);
+}
+
+.dropdown1 {
+    width: 100%;
+    background-color: #5ebeeb;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+    width: inherit;
+    transition: 0.2s ease-in-out;
+    justify-content: space-around;
+}
+
+
+
+.dropdown1 .sub1,
+.dropdown1 .sub2 {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    transition: 0.2s ease-in-out;
+    justify-content: space-evenly;
+}
+
+.sub1:hover,
+.sub2:hover {
+    transform: translateY(-10px);
+}
+
+#myProfIcon:hover {
+    background-color: var(--spgreen);
+}
+
+/* .sub2 {
+    border: 2px solid red;
+    display: flex;
+    align-items: center;
+} */
+
+
+.dropdown1 {
+    display: none;
+}
+
+.sub2 {
+    display: none;
+}

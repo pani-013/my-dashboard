@@ -1,0 +1,135 @@
+.bottom {
+    /* border: 10px solid red; */
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 150vh;
+    background-color: rgb(224, 224, 224);
+}
+
+.noticeCard {
+    width: 80%;
+    /* height: 250px; */
+    /* border: 2px solid red; */
+    border-radius: 1rem;
+    box-shadow: 0px 0px 7px 2px rgb(0 0 0 / 20%);
+    padding: 1rem;
+    background-color: white;
+}
+
+.noticeCard h3 {
+    font-size: 20px;
+}
+
+.noticeCard hr {
+    border: 1px solid red;
+    border-radius: 5px;
+}
+
+.noticeCard .activate {
+    transition: 0.2s ease-in-out;
+    border-radius: 3px;
+    border: none;
+    /* box-shadow: 0px 0px 2px 1px rgb(0 0 0 / 10%); */
+    border: 1px solid gray;
+    padding: 0.5rem;
+}
+
+.noticeCard .activate:hover {
+    color: white;
+    background-color: var(--spgreen);
+}
+
+.profileData {
+    padding: 1rem;
+    width: 80%;
+    height: 600px;
+    /* border: 2px solid red; */
+    border-radius: 1rem;
+    box-shadow: 0px 0px 7px 2px rgb(0 0 0 / 20%);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profileData .bai,
+.profileData .dai {
+    /* border: 2px solid red; */
+    background-color: white;
+    height: 100%;
+}
+
+.profileData .bai {
+    width: 40%;
+}
+
+.profileData .dai {
+    width: 55%;
+}
+
+.profileData .profilePhoto {
+    border: 2px solid green;
+    height: 300px;
+    margin-bottom: 2rem;
+}
+
+.profileData .bai .profileId {
+    font-size: 20px;
+    font-weight: 600;
+    color: gray;
+}
+
+.profileData .bai .level {
+    color: var(--spgreen);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.profileData .bai {
+    text-align: center;
+}
+
+.profileData .dai {
+    border: 2px solid red;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.profileData .dai .daiInfo {
+    /* border: 2px solid red; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+
+.profileData .dai .leftcol,
+.profileData .dai .rightcol {
+    /* border: 2px solid green; */
+    height: 100%;
+    width: 47%;
+}
+
+.profileData .dai .name {
+    padding-bottom: 1rem;
+}
+
+.profileData .dai .leftcol p,
+.profileData .dai .rightcol p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* 
+.profileData .dai .rightcol {
+    border: 2px solid green;
+    height: 100%;
+    width: 40%;
+} */
