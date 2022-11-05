@@ -1,12 +1,18 @@
 .Sidebar {
     color: white;
-    width: 100%;
+    width: 20%;
+    position: fixed;
+    /* border: 2px solid yellow; */
+    background-color: var(--spblue);
+    height: 100%;
 }
 
 .Sidebar a {
     text-decoration: none;
     color: white;
     transition: 0.2s ease-in-out;
+    /* border: 2px solid red; */
+    width: inherit;
 }
 
 .Sidebar a:hover {
