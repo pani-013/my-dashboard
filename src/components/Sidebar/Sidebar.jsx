@@ -4,6 +4,8 @@ import Logo from '../../imgs/logo.png'
 import {UilEstate} from "@iconscout/react-unicons"
 import {UilUsersAlt} from "@iconscout/react-unicons"
 import { SidebarData } from '../../Data/Data'
+// import { SidebarData } from '../../../../login/login.html'
+
 
 const Sidebar = () => {
     const myFunc = ()=>{
@@ -19,6 +21,11 @@ const Sidebar = () => {
         document.getElementById("sub2").style.display = "none"; 
         else
         document.getElementById("sub2").style.display = "flex";    
+    }
+
+    const myFunc3 = ()=>{
+        alert("hey");
+        document.getElementsByClassName("bottom").style.display="none"; 
     }
   return (
     <div className="Sidebar">
@@ -55,7 +62,9 @@ const Sidebar = () => {
                 </div>
                 <div className="sub2" id="sub2">
                     <i class='far fa-address-card'></i>
-                    Edit Profile 
+                    <a href="..." onClick={myFunc3}>
+                        Edit Profile 
+                    </a>
                 </div>
             </div> 
            
