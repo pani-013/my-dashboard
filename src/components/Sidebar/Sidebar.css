@@ -136,7 +136,8 @@
 
 
 .dropdown1 .sub1,
-.dropdown1 .sub2 {
+.dropdown1 .sub2 a,
+.dropdown1 .sub2 i {
     width: 100%;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -147,7 +148,8 @@
 }
 
 .sub1:hover,
-.sub2:hover {
+.sub2:hover a,
+.sub2:hover i {
     transform: translateY(-10px);
 }
 
