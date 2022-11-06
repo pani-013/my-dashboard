@@ -41,28 +41,42 @@ const Middle = () => {
   </div>
 </nav>
 
+    <div className="social">
+      <div className="socialIcons">
+      <span>Share</span>
+      <i class="fa-brands fa-whatsapp" id='wa'></i>
+      <i class="fa-brands fa-facebook" id='fb'></i>
+      <i class="fa-solid fa-copy" id='cp'></i>
+      </div>
+      <div className="heading">
+        <h1>Notice</h1>
+      </div>
+    </div>
+
       <div className="bottom">
-              <div className="noticeCard">  
-                <h3>Notice</h3>
-                <hr />
-                <p className='activeAlert'>Please Acitvate Your Account!</p>
-                <button className='activate'>Activate <i class='far fa-arrow-alt-circle-right'></i> </button>
-              </div>
-              <div className="profileData">
-                    {/* bai = left, dai = right */}
-                    <div className="bai">
-                        <div className="profilePhoto">
-                          {/* add image here */}
-                        </div>
-                        <div className="profileId">SAIS15360</div>
-                        <br />
-                        <div className="level">Noob</div>
+            <div className="noticeCard">  
+              <h3>Notice</h3>
+              <hr />
+              <p className='activeAlert'>Please Acitvate Your Account!</p>
+              <button className='activate'>Activate <i class='far fa-arrow-alt-circle-right'></i> </button>
+            </div>
+            <div className="profileData">
+                {/* bai = left, dai = right */}
+                <div className="bai">
+                    <div className="profilePhoto">
+                      {/* add image here */}
                     </div>
-
-
-                    <div className="dai">
-                          <h1 className='name'>Sai Subrata Panigrahi</h1>
-                          <div className="daiInfo">
+                    <div className="profileId">
+                      SAIS15360
+                    </div>
+                    <br />
+                    <div className="level">
+                      Noob
+                    </div>
+                </div>
+                <div className="dai">
+                    <h1 className='name'>Sai Subrata Panigrahi</h1>
+                        <div className="daiInfo">
                             <div className="leftcol">
                               <p> <i class='fas fa-user-alt'></i> Full Name: </p>
                               <p>  <i class='far fa-calendar-alt'></i> Date of Join: </p>
@@ -81,16 +95,62 @@ const Middle = () => {
                               Active 
                               </p>
                               <p>
-                              Bbhubaneshwar 
+                              Bhubaneshwar 
                               </p>
                               <p>
                               8919406098
                               </p>
                             </div>
-                          </div>
+                        </div>
+                </div>
+            </div>
+
+
+            <div className="bottom2">
+              <div className="photoCard">
+                <div className="photo">
+                </div>
+                <div className="profileId">
+                      SAIS15360
                     </div>
+                    <br />
+                    <div className="level">
+                      Noob
+                    </div>
+                </div>
+              <div className="updateCard">
+                <h5>Edit Profile</h5>
+                <hr />
+                <div className="row1">
+                  <label for="company">Company</label>
+                  <input type="text" id="company" name="company" disabled value="Ayurveda SweetLife Pvt Ltd."></input>
+                  <br />
+                  <label for="username">Username</label>
+                  <input type="text" id="username" name="username" disabled value="SAIS15360"></input>
+                  <br />
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email"></input>
+                  <br />
+                  <label for="fname">First Name</label>
+                  <input type="text" id="fname" name="fname" disabled value="Sai"></input>
+                  <br />
+                  <label for="lname">Last Name</label>
+                  <input type="text" id="lname" name="lname" disabled value="Panigrahi"></input>
+                  <br />
+                  <label for="address">Address</label>
+                  <textarea name="address" id="address" cols="30" rows="2"></textarea>
+                  <br />
+                  <label for="aboutme">About Me</label>
+                  <textarea name="aboutme" id="aboutme" cols="30" rows="2"></textarea>
+                  <br />
+                </div>
+                <button type="submit" form="form1" value="Submit">Submit</button>
+
+
               </div>
+            </div>
       </div>
+
     </div>
   )
 }
