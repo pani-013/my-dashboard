@@ -246,3 +246,15 @@
     flex-direction: column;
 
 }
+
+/*new changes*/
+
+.updateCard button {
+    /* border: 5px solid red; */
+    transition: 0.2s ease-in-out;
+}
+
+.updateCard button:hover {
+    /* border: 5px solid red; */
+    background-color: greenyellow;
+}
